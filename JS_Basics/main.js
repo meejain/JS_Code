@@ -1,0 +1,1 @@
+alert('Lets start learning JS');

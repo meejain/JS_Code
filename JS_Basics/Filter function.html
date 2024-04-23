@@ -1,0 +1,35 @@
+
+<html>
+    <body>
+    
+    <h1>Welcome to the Quiz</h1>
+    
+    <button onclick="myFunction()">Please click here for the Questionnaire</button>
+    
+    <p id="resultID"></p>
+    
+    <script>
+    var arr=[4,5,6,7,8,9,10];
+
+    var evens=filter(arr,isEvens);
+
+    function isEvens(e){
+        return e % 2 === 0;
+    }
+
+    function filter(nos,action){
+        var result=[];
+        for (i=0,i<nos.length,i++){
+         if (action(nos[i])){
+            result.push(nos[i]);
+         }
+         return result;
+        }
+    }
+
+    foreach(result,console.log);
+    </script>
+    
+    </body>
+    </html>
+    
